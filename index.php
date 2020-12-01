@@ -15,7 +15,7 @@
 
     <nav>
         <a href="index.php">Home</a>
-        <a href="../html/about.html">About Us</a>
+        <a href="../html/about.php">About Us</a>
 
         <?php
         	session_start();
@@ -28,7 +28,7 @@
 	}      
 	?>
 
-        <a href="../html/cart.html">Shopping cart</a>
+        <a href="../html/cart.php">Shopping cart</a>
     </nav>
 
         <div>
@@ -51,7 +51,7 @@
             <div class="column">
               <div class="card">
                 <h3>Cat Food</h3>
-                <a href="../html/catFood.html"><img src="../images/cat_food.jpg" class="imgFood"></a>
+                <a href="../html/catFood.php"><img src="../images/cat_food.jpg" class="imgFood"></a>
                 <p>10% all cat food items</p>
               </div>
             </div>
@@ -59,7 +59,7 @@
             <div class="column">
               <div class="card">
                 <h3>Dog Food</h3>
-                <a href="../html/dogFood.html"><img src="../images/dog_food.jpg" class="imgFood"></a>
+                <a href="../html/dogFood.php"><img src="../images/dog_food.jpg" class="imgFood"></a>
                 <p>20% on selected items</p>
             </div>
             </div>
@@ -67,7 +67,7 @@
             <div class="column">
               <div class="card">
                 <h3>Bird Food</h3>
-                <a href="../php/product.php"><img src="../images/bird_food.jpg" class="imgFood"></a>
+                <a href="../html/birdFood.php"><img src="../images/bird_food.jpg" class="imgFood"></a>
                 <p>Buy one Pack and get one free</p>
               </div>
             </div>
@@ -75,7 +75,7 @@
             <div class="column">
               <div class="card">
                 <h3>Fish Food</h3>
-                <a href="../html/fishFood.html"><img src="../images/fish_food.jpg" class="imgFood"></a>
+                <a href="../html/fishFood.php"><img src="../images/fish_food.jpg" class="imgFood"></a>
                 <p>Discounts over $20 purchases</p>
               </div>
             </div>
