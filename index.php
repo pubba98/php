@@ -67,7 +67,7 @@
             <div class="column">
               <div class="card">
                 <h3>Bird Food</h3>
-                <a href="../html/birdFood.html"><img src="../images/bird_food.jpg" class="imgFood"></a>
+                <a href="../php/product.php"><img src="../images/bird_food.jpg" class="imgFood"></a>
                 <p>Buy one Pack and get one free</p>
               </div>
             </div>
