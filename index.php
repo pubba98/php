@@ -15,7 +15,7 @@
 
     <nav>
         <a href="index.php">Home</a>
-        <a href="">About Us</a>
+        <a href="../html/about.html">About Us</a>
 
         <?php
         	session_start();
@@ -27,8 +27,8 @@
     		echo "<a href='../php/registration.php'> Become a Member</a>";
 	}      
 	?>
-	
-        <a href="">Shopping cart</a>
+
+        <a href="../html/cart.html">Shopping cart</a>
     </nav>
 
         <div>
