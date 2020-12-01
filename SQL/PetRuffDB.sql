@@ -12,6 +12,7 @@ CREATE TABLE Customer (
    PRIMARY KEY (CustomerID) 
 );
 
+
 CREATE TABLE Product (
 	ProductID int(10) NOT NULL UNIQUE, 
 	ProductName varchar(255) NOT NULL,
@@ -47,4 +48,5 @@ CREATE TABLE Items (
     FOREIGN KEY (OrderID) REFERENCES Orders(OrderID),
     FOREIGN KEY (ProductID) REFERENCES Product(ProductID)
 );
+
 

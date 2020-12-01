@@ -1,5 +1,7 @@
+
 <?php
 class Customer	 {
+    //This customer class will hold all the information about the customer
 
 	public $name;
 	public $color;

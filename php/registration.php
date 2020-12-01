@@ -30,8 +30,9 @@ if (isset($_REQUEST['username'])){
  $address = mysqli_real_escape_string($con,$address); 
  
  $phone = stripslashes($_REQUEST['phone']);
- $phone = mysqli_real_escape_string($con,$phone); 
- 
+ $phone = mysqli_real_escape_string($con,$phone);
+
+ //This SQL query will query store the registration information to the customer table and the password will save in hash format
 
         $query = "INSERT into `Customer` (CustomerName, CustomerContactNumber, CustomerAddress, CustomerEmail, CustomerPassword, CustomerUserName)
 VALUES ('$name' , '$phone' , '$address' , '$email' , '".md5($password)."' , '$username')";
